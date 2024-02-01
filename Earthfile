@@ -47,7 +47,7 @@ PUBLISH_WITH_FLEXTAGS:
     ARG EARTHLY_GIT_TAG
 
     ARG --required EARTHLY_GIT_BRANCH
-    ARG GIT_BRANCH=$(echo ${EARTHLY_GIT_BRANCH////-})
+    ARG GIT_BRANCH=$(echo "$EARTHLY_GIT_BRANCH" | sed 's/\//-/g')
 
     WAIT
         # This will detect there is already a tag (:) and will use a dash - instead
@@ -57,7 +57,7 @@ PUBLISH_WITH_FLEXTAGS:
         END
 
         # Store images
-        # Tag an image using git's tag        
+        # Tag an image using git's tag
         IF [ ! -z "$EARTHLY_GIT_TAG" ]
             SAVE IMAGE --push zondax/${CONTAINER_FULLNAME}${DELIMITER}${EARTHLY_GIT_TAG}
         END
