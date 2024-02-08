@@ -8,11 +8,24 @@
         "decimals": 10,
         "symbol": "PAS",
         "squids": {
-            "archive": "https://api.zondax.ch/pas/data/v1/firesquid/archive/graphql",
-            "explorer": "https://api.zondax.ch/pas/data/v1/giantsquid/base/graphql",
-            "stats": "https://api.zondax.ch/pas/data/v1/giantsquid/stats/graphql",
-            "main": "https://api.zondax.ch/pas/data/v1/giantsquid/main/graphql",
-            "identites": "https://api.zondax.ch/pas/data/v1/giantsquid/main/graphql"
+            "archive": "https://firesquid-polkadot-explorer.zondax.dev/graphql",
+            "explorer": "https://giantsquid-polkadot-explorer.zondax.dev/graphql",
+            "stats": "https://giantsquid-polkadot-stats-explorer.zondax.dev/graphql"
+        },
+        "coinGeckoId": "polkadot"
+    },
+    {
+        "name": "paseo",
+        "displayName": "Paseo",
+        "icon": "/assets/network-icons/paseo.svg",
+        "color": "#e6007a",
+        "prefix": 42,
+        "decimals": 10,
+        "symbol": "PAS",
+        "squids": {
+            "archive": "https://firesquid-paseo-explorer.zondax.dev/graphql",
+            "explorer": "https://giantsquid-paseo-explorer.zondax.dev/graphql",
+            "stats": "https://giantsquid-paseo-stats-explorer.zondax.dev/graphql"
         },
         "coinGeckoId": "paseo"
     },
