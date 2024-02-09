@@ -25,7 +25,9 @@
         "squids": {
             "archive": "https://api.zondax.dev/pas/data/v1/firesquid/archive/graphql",
             "explorer": "https://api.zondax.dev/pas/data/v1/giantsquid/base/graphql",
-            "stats": "https://api.zondax.dev/pas/data/v1/giantsquid/stats/graphql"
+            "stats": "https://api.zondax.dev/pas/data/v1/giantsquid/stats/graphql",
+            "main": "https://api.zondax.dev/pas/data/v1/giantsquid/main/graphql",
+            "identites": "https://api.zondax.dev/pas/data/v1/giantsquid/main/graphql"
         },
         "coinGeckoId": "paseo"
     },
