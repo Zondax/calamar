@@ -8,9 +8,9 @@
         "decimals": 10,
         "symbol": "PAS",
         "squids": {
-            "archive": "https://firesquid-polkadot-explorer.zondax.dev/graphql",
-            "explorer": "https://giantsquid-polkadot-explorer.zondax.dev/graphql",
-            "stats": "https://giantsquid-polkadot-stats-explorer.zondax.dev/graphql"
+            "archive": "https://api.zondax.dev/dot/data/v1/firesquid/archive/graphql",
+            "explorer": "https://api.zondax.dev/dot/data/v1/giantsquid/base/graphql",
+            "stats": "https://api.zondax.dev/dot/data/v1/giantsquid/stats/graphql"
         },
         "coinGeckoId": "polkadot"
     },
@@ -23,9 +23,9 @@
         "decimals": 10,
         "symbol": "PAS",
         "squids": {
-            "archive": "https://firesquid-paseo-explorer.zondax.dev/graphql",
-            "explorer": "https://giantsquid-paseo-explorer.zondax.dev/graphql",
-            "stats": "https://giantsquid-paseo-stats-explorer.zondax.dev/graphql"
+            "archive": "https://api.zondax.dev/pas/data/v1/firesquid/archive/graphql",
+            "explorer": "https://api.zondax.dev/pas/data/v1/giantsquid/base/graphql",
+            "stats": "https://api.zondax.dev/pas/data/v1/giantsquid/stats/graphql"
         },
         "coinGeckoId": "paseo"
     },
