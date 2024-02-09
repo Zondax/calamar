@@ -9,7 +9,8 @@
         "symbol": "PAS",
         "squids": {
             "archive": "https://api.zondax.ch/pas/data/v1/firesquid/archive/graphql",
-            "explorer": "https://api.zondax.ch/pas/data/v1/giantsquid/base/graphql"
+            "explorer": "https://api.zondax.ch/pas/data/v1/giantsquid/base/graphql",
+            "stats": "https://api.zondax.ch/pas/data/v1/giantsquid/stats/graphql"
         },
         "coinGeckoId": "paseo"
     }
