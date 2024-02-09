@@ -1,19 +1,16 @@
 [
     {
-        "name": "polkadot",
-        "displayName": "Polkadot",
-        "icon": "/assets/network-icons/polkadot.svg",
-        "color": "#e6007a",
+        "name": "paseo",
+        "displayName": "Paseo",
+        "icon": "/assets/network-icons/paseo.svg",
+        "color": "#d6e4e3",
         "prefix": 0,
         "decimals": 10,
-        "symbol": "DOT",
+        "symbol": "PAS",
         "squids": {
-            "archive": "https://polkadot.explorer.subsquid.io/graphql",
-            "explorer": "https://squid.subsquid.io/gs-explorer-polkadot/graphql",
-            "main": "https://squid.subsquid.io/gs-main-polkadot/graphql",
-            "identites": "https://squid.subsquid.io/gs-main-polkadot/graphql",
-            "stats": "https://squid.subsquid.io/gs-stats-polkadot/graphql"
+            "archive": "https://api.zondax.ch/pas/data/v1/firesquid/archive/graphql",
+            "explorer": "https://api.zondax.ch/pas/data/v1/giantsquid/base/graphql"
         },
-        "coinGeckoId": "polkadot"
+        "coinGeckoId": "paseo"
     }
 ]
