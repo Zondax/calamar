@@ -15,5 +15,22 @@
             "identites": "https://api.zondax.ch/pas/data/v1/giantsquid/main/graphql"
         },
         "coinGeckoId": "paseo"
+    },
+    {
+        "name": "paseo-tot",
+        "displayName": "Paseo TOT",
+        "icon": "/assets/network-icons/paseo.svg",
+        "color": "#d6e4e3",
+        "prefix": 42,
+        "decimals": 10,
+        "symbol": "PAS",
+        "squids": {
+            "archive": "https://api.zondax.ch/pas-tot/data/v1/firesquid/archive/graphql",
+            "explorer": "https://api.zondax.ch/pas-tot/data/v1/giantsquid/base/graphql",
+            "stats": "https://api.zondax.ch/pas-tot/data/v1/giantsquid/stats/graphql",
+            "main": "https://api.zondax.ch/pas-tot/data/v1/giantsquid/main/graphql",
+            "identites": "https://api.zondax.ch/pas-tot/data/v1/giantsquid/main/graphql"
+        },
+        "coinGeckoId": "paseo-tot"
     }
 ]
