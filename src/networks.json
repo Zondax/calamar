@@ -19,7 +19,7 @@
         "displayName": "Paseo",
         "icon": "/assets/network-icons/paseo.svg",
         "color": "#d6e4e3",
-        "prefix": 42,
+        "prefix": 0,
         "decimals": 10,
         "symbol": "PAS",
         "squids": {
